@@ -27,7 +27,7 @@
     <script>
         $(document).ready(function () {
             
-
+            let person = prompt("Please enter your name", "Elisya Putri<3");
             let text ='Hii';
             let msg = " :)";
             let msg2 = "i hope you enjoy your day :)";
@@ -38,7 +38,7 @@
             var today = new Date();
             var kk = today.getHours();
             if (kk < 12){
-                text = "Good Morning Elisya Putri<3"+person;
+                text = "Good Morning "+person;
                 msg ="hey , i love you :)"
                 hapus =19;
                 msg2="have a good day"
@@ -46,14 +46,14 @@
 
             } 
             if (kk >= 12){
-                text = "Good Afternoon Elisya Putri<3"+person;
+                text = "Good Afternoon "+person;
                 msg = "keep it up for today"
                 hapus = 20;
                 msg2="yess you can do it";
                 hapus2=18;
             }
              if (kk >= 17){
-                text = "Good Evening Elisya Putri<3"+person;
+                text = "Good Evening "+person;
                 msg ="How Was Your Day ?"
                 hapus=18;
                 msg2 = "i hope you have a good day";
@@ -62,7 +62,7 @@
             }
 
             if (kk >= 22){
-                text = "Good Night Elisya Putri<3"+person;
+                text = "Good Night "+person;
                 msg ="Hey its Time to slepp"
                 hapus= 21;
                 msg2 = "go to sleep and have a nice dream :)"
